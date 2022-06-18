@@ -5,12 +5,11 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt install -y \
 	build-essential \
-	git \
 	vim \
 	curl \
 	wget \
 	htop \
-	tmux \
+	terminator \
 	fcitx-mozc \
 	gmpc \
 	xz-utils \
