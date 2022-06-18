@@ -10,6 +10,7 @@ sudo apt install -y \
 	wget \
 	htop \
 	terminator \
+	screen \
 	fcitx-mozc \
 	gmpc \
 	xz-utils \
