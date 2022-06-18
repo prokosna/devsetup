@@ -24,5 +24,9 @@ sudo apt install -y \
 	liblzma-dev \
 	uuid-dev \
 	libffi-dev \
-	libdb-dev
+	libdb-dev \
+	clang \
+	cmake \
+	ninja-build \
+	libgtk-3-dev
 
