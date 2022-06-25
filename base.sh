@@ -29,5 +29,8 @@ sudo apt install -y \
 	clang \
 	cmake \
 	ninja-build \
-	libgtk-3-dev
+	libgtk-3-dev \
+	lm-sensors \
+	stress-ng \
+	sysstat
 
