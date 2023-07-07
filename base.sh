@@ -12,7 +12,6 @@ sudo apt install -y \
 	terminator \
 	screen \
 	fcitx-mozc \
-	gmpc \
 	xz-utils \
 	libglu1-mesa \
 	zlib1g-dev \
