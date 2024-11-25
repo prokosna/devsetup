@@ -76,6 +76,7 @@ plugins=(
   shrink-path
   zsh-syntax-highlighting
   docker
+  asdf
 )
 
 source $ZSH/oh-my-zsh.sh

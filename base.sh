@@ -5,7 +5,7 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt install -y \
 	build-essential \
-	vim \
+	vim-gtk \
 	curl \
 	wget \
 	htop \
@@ -13,23 +13,19 @@ sudo apt install -y \
 	screen \
 	fcitx-mozc \
 	xz-utils \
-	libglu1-mesa \
-	zlib1g-dev \
-	libreadline-dev \
-	libncursesw5-dev \
-	libssl-dev \
 	libsqlite3-dev \
-	libgdbm-dev \
 	libbz2-dev \
 	liblzma-dev \
-	uuid-dev \
-	libffi-dev \
-	libdb-dev \
+	libreadline-dev \
 	clang \
 	cmake \
-	ninja-build \
-	libgtk-3-dev \
 	lm-sensors \
 	stress-ng \
-	sysstat
-
+	sysstat \
+	iperf3 \
+	tree \
+	nmap \
+	flac \
+	wavpack \
+	ffprobe \
+	ffmpeg
