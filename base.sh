@@ -4,28 +4,19 @@ echo "##### Install base packages #####"
 sudo apt update
 sudo apt upgrade -y
 sudo apt install -y \
-	build-essential \
-	vim-gtk \
+	git \
+	git-lfs \
+	vim-gtk3 \
 	curl \
 	wget \
 	htop \
 	terminator \
 	screen \
 	fcitx-mozc \
-	xz-utils \
-	libsqlite3-dev \
-	libbz2-dev \
-	liblzma-dev \
-	libreadline-dev \
 	clang \
 	cmake \
-	lm-sensors \
-	stress-ng \
-	sysstat \
-	iperf3 \
-	tree \
-	nmap \
-	flac \
-	wavpack \
-	ffprobe \
-	ffmpeg
+	cifs-utils \
+	tree
+
+VIM_GTK3_PATH=$(which vim.gtk3)
+sudo update-alternatives --set editor "$VIM_GTK3_PATH"
