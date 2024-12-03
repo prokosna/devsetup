@@ -3,6 +3,7 @@
 echo "##### Install audio packages #####"
 sudo apt update
 sudo apt upgrade -y
+# https://github.com/pyenv/pyenv/wiki#suggested-build-environment
 sudo apt install -y \
 	build-essential \
 	libssl-dev \
