@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "##### Install audio packages #####"
+echo "##### Install dependencies to build Python #####"
 sudo apt update
 sudo apt upgrade -y
 # https://github.com/pyenv/pyenv/wiki#suggested-build-environment
