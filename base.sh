@@ -12,7 +12,7 @@ sudo apt install -y \
 	htop \
 	terminator \
 	screen \
-	fcitx-mozc \
+	fcitx5-mozc \
 	clang \
 	cmake \
 	cifs-utils \
