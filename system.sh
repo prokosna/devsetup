@@ -12,3 +12,5 @@ sudo apt install -y \
 	net-tools \
 	strace \
 	cpu-checker
+sudo snap install btop
+
