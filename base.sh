@@ -10,7 +10,6 @@ sudo apt install -y \
 	curl \
 	wget \
 	htop \
-	terminator \
 	screen \
 	fcitx5-mozc \
 	clang \
@@ -18,5 +17,9 @@ sudo apt install -y \
 	cifs-utils \
 	tree
 
+echo "##### Setup vim #####"
 VIM_GTK3_PATH=$(which vim.gtk3)
 sudo update-alternatives --set editor "$VIM_GTK3_PATH"
+
+echo "##### Prohibit global pip install #####"
+echo "$export PIP_REQUIRE_VIRTUALENV=true" >> ~/.bashrc

@@ -76,7 +76,6 @@ plugins=(
   shrink-path
   zsh-syntax-highlighting
   docker
-  asdf
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -113,3 +112,6 @@ prompt_dir() {
   source ~/.oh-my-zsh/plugins/shrink-path/shrink-path.plugin.zsh
   prompt_segment blue $CURRENT_FG "$(shrink_path -f)"
 }
+
+# Python
+export PIP_REQUIRE_VIRTUALENV=true
